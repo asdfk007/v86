@@ -45,5 +45,5 @@ jobs:
       - name: Deploy to EdgeOne
         run: |
           edgeone makers deploy . \
-          -n YOUR_PROJECT_NAME \
+          -n v86-system \
           -t ${{ secrets.EDGEONE_TOKEN }}
