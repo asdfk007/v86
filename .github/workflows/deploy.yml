@@ -1,0 +1,54 @@
+02:17:00.455
+02:17:00.456
+Switching node version
+02:17:01.361
+Now, we're on node version v22.17.1 (npm 10.9.2)
+02:17:06.758
+02:17:06.758
+Running "edgeone makers build"
+02:17:08.868
+[builder] InstallCommand: curl -sSfL $(echo aHR0cHM6Ly9zaC5ydXN0dXAucnM= | base64 -d) | sh -s -- -y
+02:17:08.869
+[builder] Using shell: sh with args: -c curl -sSfL $(echo aHR0cHM6Ly9zaC5ydXN0dXAucnM= | base64 -d) | sh -s -- -y
+02:17:08.991
+error: need 'chmod' (command not found)
+02:17:08.993
+[builder] "curl -sSfL $(echo aHR0cHM6Ly9zaC5ydXN0dXAucnM= | base64 -d) | sh -s -- -y" failed, exit code: 1
+02:17:08.993
+[builder] ✗ Build project failed after 0.13s
+02:17:09.008
+Options:
+02:17:09.008
+  -v, --version       Show version  [boolean]
+02:17:09.008
+      --external      Comma-separated list of packages to externalize (e.g., argon2,bcrypt)  [string] [default: ""]
+02:17:09.008
+      --mode          Build mode: "prod" for Linux deployment (default), "dev" for local testing with native dependencies  [string] [choices: "dev", "prod"] [default: "prod"]
+02:17:09.008
+  -h, --help, --help  Show help  [boolean]
+02:17:09.009
+Error: Command failed with code 1
+02:17:09.009
+    at ChildProcess.<anonymous> (/tmp/home/.local/share/fnm/node-versions/v22.11.0/installation/lib/node_modules/edgeone/edgeone-dist/cli.js:89078:7506)
+02:17:09.009
+    at ChildProcess.emit (node:events:518:28)
+02:17:09.009
+    at maybeClose (node:internal/child_process:1101:16)
+02:17:09.009
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+02:17:12.496
+02:17:12.496
+> Start validating the configuration file:
+02:17:12.498
+none error in configuration file
+02:17:12.498
+End validating!
+02:17:12.498
+02:17:12.498
+[cli] No server-handler detected, generating routes.json for pure project...
+02:17:12.498
+[cli] ✅ Generated routes.json for pure project
+02:17:12.499
+[injectHooks] bundlePath: /dev/shm/repo/v86-system-dptftpavda96/.edgeone/edge-functions/index.js
+02:17:12.499
+[injectHooks] bundle file not found, skip
